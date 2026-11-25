@@ -10,7 +10,7 @@ def test_read_column_returns_numbers():
 
 def test_calculate_statistics():
     result = calculate_statistics([21.5, 19.8, 23.0, 22.1])
-    assert result == {"count": 4, "min": 19.8, "max": 23.0, "mean": 99}
+    assert result == {"count": 4, "min": 19.8, "max": 23.0, "mean": 21.6}
 
 
 def test_empty_file():
